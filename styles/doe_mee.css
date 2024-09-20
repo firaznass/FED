@@ -1,0 +1,34 @@
+main h1{
+    color: var(--color-text);
+}
+
+main > button{
+    appearance: none;
+    background-color: var(--accent-color);
+    color: var(--color-text);
+    border-style: none;
+    padding: .5em;
+    flex-grow: 1;
+}
+
+main img{
+    display: block;
+}
+
+main section{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+main section h2, main section p{
+    color: var(--color-text);
+}
+
+main section p{
+    flex-basis: 60%;
+}
+
+main img + h2{
+    background-color: white;
+    margin: 0;
+}

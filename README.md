@@ -121,7 +121,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  html en css ging voor het meest goed, het was niet al te moeilijk om te begrijpen, maar css bij sommige dingen, zoals de hamburger menu ging niet zo goed. Weet niet zo goed hoe ik de nav naast de hamburger menu moet gaan zetten.
+  
+  <img src="/readme-images/hamburger nav.png" width="375px" alt="hamburger menu">
+  <img src="/readme-images/nav css.png" width="375px" alt="nav css code">
+  <img src="/readme-images/homepage plaatjes.png" width="375px" alt="plaatjes op de homepage met de beschrijving">
+
+
 
 
   ### Agenda voor meeting

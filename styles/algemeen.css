@@ -1,0 +1,71 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	--color-text:white;
+	--color-background:#3966c8;
+	--accent-color: red;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+@font-face {
+	font-family: "American Typewriter";
+	src: url("AmericanTypewriter-01.ttf");
+}
+
+body{
+	background-color: var(--color-background);
+	font-family: "American Typewriter", 'Courier New', Courier;
+}
+
+header nav{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5em;
+}
+
+header ul{
+	list-style: none;	
+}	
+
+header button{
+	width: 3em;
+	height: 3em;
+}
+	
+header nav:nth-of-type(2) ul{
+	display: flex;
+	gap: .5em;
+	list-style: none;
+	justify-content: space-around;
+}
+
+header nav a{
+	text-decoration: none;
+}
+
+header img, main img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
