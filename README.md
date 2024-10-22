@@ -143,10 +143,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - 2 losse navs of h2 boven elke nav
+  - Logo in header? grid of flex -> grid
+  - a is om te navigeren naar een nieuwe pagina of een sectie op de pagina
+  - Button is voor een actie en niet om voor te navigeren
+  - svg -> kleur veranderen met stroke, binnenkant is fill. Gen color bij tekst en blockelmenten
+  - inspector gebruiken om elementen te zien + fouten
+  - geen telefoon modus
+  - iets onder elkaar -> parent grid
+  - iets naast elkaar -> parent flex
+  - overflow hidden en visable
 
 </details>
 

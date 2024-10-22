@@ -18,6 +18,14 @@
 	--color-background:#3966c8;
 	--accent-color: red;
 }
+/* 
+@media (prefers-color-scheme: dark){
+	:root {
+		--color-text:white;
+		--color-background:rgb(11, 8, 74);
+		--accent-color: rgb(255, 0, 115);
+	}
+} */
 
 
 
@@ -38,10 +46,11 @@ body{
 	font-family: "American Typewriter", 'Courier New', Courier;
 }
 
-header nav{
+
+/* hamburger menu */
+header{
 	display: flex;
-	flex-wrap: wrap;
-	gap: 5em;
+	justify-content: space-between;
 }
 
 header ul{
