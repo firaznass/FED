@@ -1,0 +1,72 @@
+:root {
+	--gepersonaliseerd-text:black;
+	--gepersonaliseerd-background: #75aedf;
+    --gepersonaliseerd-background-two: white;
+	--button-color: yellow;
+    --button-color-twee: blue;
+}
+
+body{
+    background-color: var(--gepersonaliseerd-background);
+}
+
+@media only screen and (max-width: 600px){
+    /* @media van w3school */
+
+    main{
+        background-color: var(--gepersonaliseerd-background);
+    }
+
+    main h1{
+        text-align: center;
+        color: var(--color-text);
+        font-size: 3em;
+        text-transform: uppercase;
+        line-height: 0.8;
+    }
+
+    main p{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    main button{
+        display: block;
+        margin: auto;
+        background-color: var(--button-color);
+        padding: 1em;
+        border-style: none;
+        font-weight: bold;
+    }
+
+    main section{
+        background-color: white ;
+    }
+
+    main section ul{
+        list-style: none;
+        display: flex;
+        gap: 0.5em;
+        overflow-x: auto;
+        padding: 0;
+    }
+
+    main section ul::-webkit-scrollbar{
+        /* met behulp van chatgpt */
+        display: none;
+    }
+
+    main section ul li{
+        flex-shrink: 0;
+    }
+
+    main section ul li button{
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section:nth-child(2){
+        background-color: red;
+    }
+}

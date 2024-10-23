@@ -152,7 +152,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - geen telefoon modus
   - iets onder elkaar -> parent grid
   - iets naast elkaar -> parent flex
-  - overflow hidden en visable
+  - overflow hidden en visable  
 
 </details>
 

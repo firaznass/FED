@@ -48,33 +48,37 @@ body{
 
 
 /* hamburger menu */
-header{
-	display: flex;
-	justify-content: space-between;
-}
-
-header ul{
-	list-style: none;	
-}	
-
-header button{
-	width: 3em;
-	height: 3em;
-}
+@media only screen and (max-width: 600px) {
+	/* @media van w3school */
+	header{
+		display: flex;
+		justify-content: space-between;
+	}
 	
-header nav:nth-of-type(2) ul{
-	display: flex;
-	gap: .5em;
-	list-style: none;
-	justify-content: space-around;
+	header ul{
+		list-style: none;	
+	}	
+	
+	header button{
+		width: 3em;
+		height: 3em;
+	}
+		
+	header nav:nth-of-type(2) ul{
+		display: flex;
+		gap: .5em;
+		list-style: none;
+		justify-content: space-around;
+	}
+	
+	header nav a{
+		text-decoration: none;
+	}
+	
+	header img, main img{
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
 }
 
-header nav a{
-	text-decoration: none;
-}
-
-header img, main img{
-	display: block;
-	max-width: 100%;
-	height: auto;
-}
